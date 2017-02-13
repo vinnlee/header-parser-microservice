@@ -1,0 +1,19 @@
+{
+  "name": "request-header-parser-microservice",
+  "version": "1.0.0",
+  "description": "Get the IP address, language and operating system for user browser",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "get ip address",
+    "get language and operating system"
+  ],
+  "author": "Vincent Lee",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1",
+    "express-useragent": "^1.0.7"
+  }
+}
