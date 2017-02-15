@@ -11,7 +11,7 @@ app.get('/', function(request, response) {
 });
 
 app.get('/api', function(request, response) {
-    response.send('You do not belong here');
+    response.send('Page not Found', 404);
 });
 
 app.get('/api/whoami', function(request, response) {
