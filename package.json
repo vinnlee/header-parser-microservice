@@ -13,7 +13,7 @@
   "author": "Vincent Lee",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.1",
-    "express-useragent": "^1.0.7"
+    "express": "^4.17.1",
+    "express-useragent": "^1.0.15"
   }
 }

@@ -20,9 +20,9 @@ app.get('/api/whoami', function(request, response) {
     var software = request.useragent.os;
     
     var obj = {
-      "ipaddress": ip,
-      "language": language,
-      "software": software
+      ipaddress: ip,
+      language: language,
+      software: software
     };
     
     response.json(obj);
